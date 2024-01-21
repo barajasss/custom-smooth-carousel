@@ -1,0 +1,30 @@
+.carousel-container {
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-slide img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.prev-btn,
+.next-btn {
+    position: absolute;
+    top: 50%;
+    width: 100px;
+    padding: 5px;
+    border: 1px solid #444;
+}
+
+.prev-btn {
+    left: 20px;
+}
+.next-btn {
+    right: 20px;
+}
